@@ -54,14 +54,14 @@ This dataset classifies as BitM phishing (1) or legitimate (0). The supervised m
 All these models are trained on the dataset, and their performance is evaluated using the test dataset. 
 
 
-The elaborate details of the attack of BitM Phishing and the models training are mentioned in [Phishing Detection in Browser-in-the-Middle: A Novel Empirical Approach Incorporating Machine Learning Algorithms](https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/blob/master/Phishing%20Website%20Detection_Models%20%26%20Training.ipynb) *[![BitM Detection Book Chapter](https://img.shields.io/badge/Springer-BitM_Phishing_Detection_Book_Chapter-darkmagenta%09?style=flat-square&logo=semanticscholar&color=greenyellow)
+The elaborate details of the attack of BitM Phishing and the models training are mentioned in [Phishing Detection in Browser-in-the-Middle: A Novel Empirical Approach Incorporating Machine Learning Algorithms](https://link.springer.com/chapter/10.1007/978-3-031-64067-4_9) *[![BitM Detection Book Chapter](https://img.shields.io/badge/Springer-BitM_Phishing_Detection_Book_Chapter-darkmagenta%09?style=flat-square&logo=semanticscholar&color=greenyellow)
 ](https://link.springer.com/chapter/10.1007/978-3-031-64067-4_9)*
 
 
 ## Results And Findings
 Random Forest consistently shows the highest performance across metrics, with an accuracy of **0.99 (10 features) **and 0.94 (6 features), and the best F1 scores (0.99 and 0.96, respectively).
 
-### Futurework
+## Futurework
 
 This project can be further expanded by developing a browser extension or creating a graphical user interface (GUI) or integrating on a IDS system that accepts a URL and determines whether it is legitimate or a BitM phishing attempt. 
 
