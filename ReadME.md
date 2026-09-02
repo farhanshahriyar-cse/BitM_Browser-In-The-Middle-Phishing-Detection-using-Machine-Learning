@@ -11,6 +11,8 @@ Malicious traffic was captured when the victim clicked a phishing link, which cr
 
 The pcap files revealed different attributes for safe and malicious traffic. Specifically, data packets were captured in total—60% were identified as malicious and 40% as safe. The next step in the analysis involves importing these pcap files into Google Collaboratory, where the 'tshark' tool used to process and analyze the network packet data to differentiate between the two types of traffic by labeling them into a csv file.
 
+> For a full step-by-step walkthrough of this conversion process, see [PCAP to CSV Conversion Guide](docs/pcap-to-csv-conversion.md).
+
 
 
 *Here is the final csv [![Dataset](https://img.shields.io/badge/Dataset-BitM_Phishing-indigo%09%09?logo=github)
